@@ -1,0 +1,89 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\\u0418\u0421 \u0420\u041F\u041E\\Marketplace\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{640A7440-1E11-4B0F-99F8-64E06C97CA21}|Marketplace.csproj|d:\\\u0438\u0441 \u0440\u043F\u043E\\marketplace\\lk_buyer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{640A7440-1E11-4B0F-99F8-64E06C97CA21}|Marketplace.csproj|solutionrelative:lk_buyer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{640A7440-1E11-4B0F-99F8-64E06C97CA21}|Marketplace.csproj|d:\\\u0438\u0441 \u0440\u043F\u043E\\marketplace\\lk_buyer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{640A7440-1E11-4B0F-99F8-64E06C97CA21}|Marketplace.csproj|solutionrelative:lk_buyer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{640A7440-1E11-4B0F-99F8-64E06C97CA21}|Marketplace.csproj|d:\\\u0438\u0441 \u0440\u043F\u043E\\marketplace\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{640A7440-1E11-4B0F-99F8-64E06C97CA21}|Marketplace.csproj|solutionrelative:product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{640A7440-1E11-4B0F-99F8-64E06C97CA21}|Marketplace.csproj|d:\\\u0438\u0441 \u0440\u043F\u043E\\marketplace\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{640A7440-1E11-4B0F-99F8-64E06C97CA21}|Marketplace.csproj|solutionrelative:account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "lk_Buyer.cs",
+              "DocumentMoniker": "D:\\\u0418\u0421 \u0420\u041F\u041E\\Marketplace\\lk_Buyer.cs",
+              "RelativeDocumentMoniker": "lk_Buyer.cs",
+              "ToolTip": "D:\\\u0418\u0421 \u0420\u041F\u041E\\Marketplace\\lk_Buyer.cs",
+              "RelativeToolTip": "lk_Buyer.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwCMAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T11:34:39.325Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "lk_Buyer.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "DocumentMoniker": "D:\\\u0418\u0421 \u0420\u041F\u041E\\Marketplace\\lk_Buyer.cs",
+              "RelativeDocumentMoniker": "lk_Buyer.cs",
+              "ToolTip": "D:\\\u0418\u0421 \u0420\u041F\u041E\\Marketplace\\lk_Buyer.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "RelativeToolTip": "lk_Buyer.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T11:32:57.622Z",
+              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Product.cs",
+              "DocumentMoniker": "D:\\\u0418\u0421 \u0420\u041F\u041E\\Marketplace\\Product.cs",
+              "RelativeDocumentMoniker": "Product.cs",
+              "ToolTip": "D:\\\u0418\u0421 \u0420\u041F\u041E\\Marketplace\\Product.cs",
+              "RelativeToolTip": "Product.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAAwCUAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T06:24:44.011Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Account.cs",
+              "DocumentMoniker": "D:\\\u0418\u0421 \u0420\u041F\u041E\\Marketplace\\Account.cs",
+              "RelativeDocumentMoniker": "Account.cs",
+              "ToolTip": "D:\\\u0418\u0421 \u0420\u041F\u041E\\Marketplace\\Account.cs",
+              "RelativeToolTip": "Account.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAApwC8AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T06:47:40.763Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
