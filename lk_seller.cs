@@ -135,6 +135,19 @@ namespace Marketplace
                             Product.list.Remove(item);
                             Product.Writing();
                             LoadData();
+
+                            Product.ReadingBasket();
+                            for (int i = 0; i < Product.basketList.Count; i++)
+                            {
+                                if (Product.basketList[i].name == item.name && Product.basketList[i].price == item.price
+                                    && Product.basketList[i].count == item.count &&
+                                    Product.basketList[i].placeOfContaining == item.placeOfContaining &&
+                                    Product.basketList[i].visual == item.visual && Product.basketList[i].owner == item.owner)
+                                {
+                                    Product.basketList.Remove(Product.basketList[i]);
+                                }
+                            }
+                            Product.WritingBasket();
                             MessageBox.Show("Товар удалён");
                             return;
                         }

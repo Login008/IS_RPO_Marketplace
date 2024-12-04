@@ -17,3 +17,5 @@ D:\ИС РПО\Marketplace\obj\Debug\net8.0-windows\Marketplace.Auth.resources
 D:\ИС РПО\Marketplace\obj\Debug\net8.0-windows\Marketplace.Properties.Resources.resources
 D:\ИС РПО\Marketplace\obj\Debug\net8.0-windows\Marketplace.lk_Buyer.resources
 D:\ИС РПО\Marketplace\obj\Debug\net8.0-windows\Marketplace.lk_seller.resources
+D:\ИС РПО\Marketplace\obj\Debug\net8.0-windows\Marketplace.sourcelink.json
+D:\ИС РПО\Marketplace\obj\Debug\net8.0-windows\Marketplace.Payment.resources

@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "D:\\\u0418\u0421 \u0420\u041F\u041E\\Marketplace\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{640A7440-1E11-4B0F-99F8-64E06C97CA21}|Marketplace.csproj|d:\\\u0438\u0441 \u0440\u043F\u043E\\marketplace\\lk_buyer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{640A7440-1E11-4B0F-99F8-64E06C97CA21}|Marketplace.csproj|solutionrelative:lk_buyer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{640A7440-1E11-4B0F-99F8-64E06C97CA21}|Marketplace.csproj|d:\\\u0438\u0441 \u0440\u043F\u043E\\marketplace\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{640A7440-1E11-4B0F-99F8-64E06C97CA21}|Marketplace.csproj|solutionrelative:payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{640A7440-1E11-4B0F-99F8-64E06C97CA21}|Marketplace.csproj|d:\\\u0438\u0441 \u0440\u043F\u043E\\marketplace\\lk_buyer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{640A7440-1E11-4B0F-99F8-64E06C97CA21}|Marketplace.csproj|solutionrelative:lk_buyer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{640A7440-1E11-4B0F-99F8-64E06C97CA21}|Marketplace.csproj|d:\\\u0438\u0441 \u0440\u043F\u043E\\marketplace\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{640A7440-1E11-4B0F-99F8-64E06C97CA21}|Marketplace.csproj|solutionrelative:payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{640A7440-1E11-4B0F-99F8-64E06C97CA21}|Marketplace.csproj|d:\\\u0438\u0441 \u0440\u043F\u043E\\marketplace\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -35,26 +35,26 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "lk_Buyer.cs",
-              "DocumentMoniker": "D:\\\u0418\u0421 \u0420\u041F\u041E\\Marketplace\\lk_Buyer.cs",
-              "RelativeDocumentMoniker": "lk_Buyer.cs",
-              "ToolTip": "D:\\\u0418\u0421 \u0420\u041F\u041E\\Marketplace\\lk_Buyer.cs",
-              "RelativeToolTip": "lk_Buyer.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAQwCMAAAA7AAAAAAAAAA==",
+              "Title": "Payment.cs",
+              "DocumentMoniker": "D:\\\u0418\u0421 \u0420\u041F\u041E\\Marketplace\\Payment.cs",
+              "RelativeDocumentMoniker": "Payment.cs",
+              "ToolTip": "D:\\\u0418\u0421 \u0420\u041F\u041E\\Marketplace\\Payment.cs",
+              "RelativeToolTip": "Payment.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-28T11:34:39.325Z",
+              "WhenOpened": "2024-12-04T17:05:19.332Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "lk_Buyer.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "DocumentMoniker": "D:\\\u0418\u0421 \u0420\u041F\u041E\\Marketplace\\lk_Buyer.cs",
-              "RelativeDocumentMoniker": "lk_Buyer.cs",
-              "ToolTip": "D:\\\u0418\u0421 \u0420\u041F\u041E\\Marketplace\\lk_Buyer.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "RelativeToolTip": "lk_Buyer.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "Title": "Payment.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "DocumentMoniker": "D:\\\u0418\u0421 \u0420\u041F\u041E\\Marketplace\\Payment.cs",
+              "RelativeDocumentMoniker": "Payment.cs",
+              "ToolTip": "D:\\\u0418\u0421 \u0420\u041F\u041E\\Marketplace\\Payment.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "RelativeToolTip": "Payment.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-28T11:32:57.622Z",
+              "WhenOpened": "2024-12-04T17:04:38.132Z",
               "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
             },
             {
@@ -65,9 +65,10 @@
               "RelativeDocumentMoniker": "Product.cs",
               "ToolTip": "D:\\\u0418\u0421 \u0420\u041F\u041E\\Marketplace\\Product.cs",
               "RelativeToolTip": "Product.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAAwCUAAAAmAAAAAAAAAA==",
+              "ViewState": "AgIAAB4AAAAAAAAAAAA1wFMAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-28T06:24:44.011Z"
+              "WhenOpened": "2024-11-28T06:24:44.011Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -77,9 +78,10 @@
               "RelativeDocumentMoniker": "Account.cs",
               "ToolTip": "D:\\\u0418\u0421 \u0420\u041F\u041E\\Marketplace\\Account.cs",
               "RelativeToolTip": "Account.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAApwC8AAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAA1wDcAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-26T06:47:40.763Z"
+              "WhenOpened": "2024-11-26T06:47:40.763Z",
+              "EditorCaption": ""
             }
           ]
         }
