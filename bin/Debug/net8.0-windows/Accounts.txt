@@ -1,3 +1,4 @@
 stalkerrealsteel@gmail.com~Login008~Zonda123~Seller
-stalk@mail.ru~Login~Log123321~Seller
-stark@gmail.ru~log123~Log123456~Buyer
+stalk@mail.ru~Login~Zonda123~Seller
+stark@gmail.ru~log123~Zonda123~Buyer
+startrek@mail.ru~buyer~Zonda123~Buyer

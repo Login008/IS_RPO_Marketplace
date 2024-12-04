@@ -1,3 +1,2 @@
-Jar~1~1~Электросталь~jar.jpg~Login008
-Не_важно~1~1~Сомали~pomidor.jpg~Login008
-Огурцы~100~100~Электросталь~pomidor.jpg~Login
+хуй~1~1~хуй~jar.jpg~Login008
+Томат~30~1000~Кострома~pomidor.jpg~Login
