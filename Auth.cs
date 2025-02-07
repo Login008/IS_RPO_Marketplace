@@ -6,7 +6,7 @@ namespace Marketplace
 {
     public partial class Auth : Form
     {
-        public bool CheckEmail(string email)
+        public bool CheckEmail(string email) //функция проверки валидности email
         {
             try
             {
@@ -20,7 +20,7 @@ namespace Marketplace
                 return false;
             }
         }
-        public bool CheckLogin(string login)
+        public bool CheckLogin(string login) //функция проверки логина на формат
         {
             if (!string.IsNullOrEmpty(login))
             {
@@ -45,7 +45,7 @@ namespace Marketplace
             else
                 return false;
         }
-        public bool CheckPass(string pass)
+        public bool CheckPass(string pass) //функция проверки пароля
         {
             if (string.IsNullOrEmpty(pass))
                 return false;
@@ -73,7 +73,7 @@ namespace Marketplace
             else
                 return false;
         }
-        public void Register(string role)
+        public void Register(string role) //функция регистрации
         {
             Account acc = new Account(textBox1.Text, textBox2.Text, textBox3.Text, role);
             if (acc.CheckForExistingInList())
@@ -93,12 +93,12 @@ namespace Marketplace
         public Auth()
         {
             InitializeComponent();
-            Account.ReadFromFile();
+            Account.ReadFromFile(); //считываем инфу об акках
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e) //кнопка регистрации
         {
-            try
+            try //проверки полей
             {
                 if (CheckEmail(textBox1.Text))
                 {
@@ -106,9 +106,9 @@ namespace Marketplace
                     {
                         if (CheckPass(textBox3.Text))
                         {
-                            if (textBox3.Text == textBox4.Text)
+                            if (textBox3.Text == textBox4.Text) //проверка на подтверждение пароля
                             {
-                                if (radioButton1.Checked)
+                                if (radioButton1.Checked) //выбор роли
                                 {
                                     Register("Seller");
                                 }
@@ -143,16 +143,16 @@ namespace Marketplace
             }
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void button2_Click(object sender, EventArgs e) //кнопка входа
         {
-            if (!string.IsNullOrEmpty(textBox5.Text) && !string.IsNullOrEmpty(textBox6.Text))
+            if (!string.IsNullOrEmpty(textBox5.Text) && !string.IsNullOrEmpty(textBox6.Text)) //проверки на пустые поля
             {
                 foreach (var item in Account.list)
                 {
-                    if ((item.login == textBox5.Text || item.email == textBox5.Text) && item.pass == textBox6.Text)
+                    if ((item.login == textBox5.Text || item.email == textBox5.Text) && item.pass == textBox6.Text) //проверки на совпадения
                     {
                         Account.online = item;
-                        if (item.role == "Seller")
+                        if (item.role == "Seller") //заходим в аккаунт в зависимости от роли
                         {
                             lk_seller f1 = new lk_seller();
                             f1.Show();
@@ -176,7 +176,7 @@ namespace Marketplace
         bool vid1 = false;
         bool vid2 = false;
         bool vid3 = false;
-        private void pictureBox1_Click(object sender, EventArgs e)
+        private void pictureBox1_Click(object sender, EventArgs e) //показываем/скрываем пароль
         {
             if (vid1 == false)
             {
@@ -190,7 +190,7 @@ namespace Marketplace
             }
         }
 
-        private void pictureBox2_Click(object sender, EventArgs e)
+        private void pictureBox2_Click(object sender, EventArgs e) //тоже показываем/скрываем пароль
         {
             if (vid2 == false)
             {
@@ -204,7 +204,7 @@ namespace Marketplace
             }
         }
 
-        private void pictureBox3_Click(object sender, EventArgs e)
+        private void pictureBox3_Click(object sender, EventArgs e) //то же самое
         {
             if (vid3 == false)
             {

@@ -6,12 +6,12 @@ using System.Threading.Tasks;
 
 namespace Marketplace
 {
-    public class Product
+    public class Product //класс для продуктов
     {
-        static public List<Product> basketList = new List<Product>();
-        static public List<Product> list = new List<Product>();
+        static public List<Product> basketList = new List<Product>(); //список продуктов в корзине
+        static public List<Product> list = new List<Product>(); //список продуктов в каталоге
 
-        public string name;
+        public string name; //поля продукта
         public double price;
         public int count;
         public string placeOfContaining;
@@ -19,7 +19,7 @@ namespace Marketplace
         public string owner;
         public int basketCount = 1;
         public string basketOwner;
-        public Product(string name, double price, int count, string placeOfContaining, string visual, string owner)
+        public Product(string name, double price, int count, string placeOfContaining, string visual, string owner) //конструктор
         {
             this.name = name;
             this.price = price;
@@ -28,7 +28,7 @@ namespace Marketplace
             this.visual = visual;
             this.owner = owner;
         }
-        static public void Reading()
+        static public void Reading() //процедура считывания всех продуктов из текстового файла
         {
             if (File.Exists("products.txt"))
             {
@@ -43,7 +43,7 @@ namespace Marketplace
                 sr.Close();
             }
         }
-        static public void Writing()
+        static public void Writing() //процедура записи всех продуктов в текстовый файл
         {
             StreamWriter sw = File.CreateText("products.txt");
 
@@ -54,7 +54,7 @@ namespace Marketplace
 
             sw.Close();
         }
-        static public void WritingBasket()
+        static public void WritingBasket() //процедура записи продуктов в корзине для каждого акка
         {
             StreamWriter sw = File.CreateText("basketProducts.txt");
 
@@ -65,7 +65,7 @@ namespace Marketplace
 
             sw.Close();
         }
-        static public void ReadingBasket()
+        static public void ReadingBasket() //процедура считывания продуктов в корзине у юзера
         {
             if (File.Exists("basketProducts.txt"))
             {
